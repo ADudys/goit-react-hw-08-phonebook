@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { ContactItemContent } from 'components/ContactItemContent/ContactItemContent';
 import { selectFilteredContacts } from 'store/filter/selectors';
 import { Loader } from 'components/Loader/Loader';
-import { Filter } from 'components/Filter/Filter';
 import { selectIsLoading } from 'store/contacts/selectors';
 
 export const ContactList = () => {

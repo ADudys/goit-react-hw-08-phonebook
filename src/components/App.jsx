@@ -1,5 +1,4 @@
 import React, { lazy, useEffect } from 'react';
-import css from './App.module.css';
 import { useDispatch } from 'react-redux';
 import { useAuth } from 'hooks';
 import { refreshUser } from 'store/auth/operations';
